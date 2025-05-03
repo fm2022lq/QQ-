@@ -13,6 +13,8 @@ pandas
 
 ```
 
+
+
 配置文件[config.ini]说明
 
 ```tex
@@ -35,6 +37,8 @@ read_sheet_name = 你的QQ号_pic_vid
 download_path = 保存图片、视频的路径，如：D:\xxx
 ```
 
+
+
 [api_info.yaml]配置cookie
 
 ```tex
@@ -43,7 +47,9 @@ cookie: p_skey=[登录QQ空间后在cookie中复制p_skey];p_uin=o0[你的QQ号]
 cookie: p_skey=xxxxxxxx;p_uin=o05239999520;uin=o05239999520
 ```
 
-运行qq_space_request.py
+
+
+运行qq_space_request.py来获取相册的信息
 
 ```tex
 指定文件编码格式：utf-8
@@ -52,3 +58,6 @@ user_info_temp.txt 用户信息已保存
 :
 ```
 
+
+
+运行download_coroutine.py来下载图片及视频

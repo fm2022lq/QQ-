@@ -208,6 +208,7 @@ class QQSpace:
 
     def save_data_to_temp(self, filepath: tuple[str, ...], filename, data_list):
         # 临时保存照片、视频信息
+        self.folders_create(filepath)
         file = self.get_current_path(filepath, filename)
         with open(file, mode="a", encoding="utf-8") as f:
             for d in data_list:
@@ -216,6 +217,7 @@ class QQSpace:
         print("{} 临时数据保存完成".format(filename))
 
     def save_userinfo_to_temp(self, filepath: tuple[str, ...], filename, d, encoding="utf-8"):
+        self.folders_create(filepath)
         # 临时保存用户信息
         file = self.get_current_path(filepath, filename)
         with open(file, mode="w", encoding=encoding) as f:
