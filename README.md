@@ -35,7 +35,7 @@ read_sheet_name = 你的QQ号_pic_vid
 download_path = 保存图片、视频的路径，如：D:\xxx
 ```
 
-配置cookie
+[api_info.yaml]配置cookie
 
 ```tex
 cookie: p_skey=[登录QQ空间后在cookie中复制p_skey];p_uin=o0[你的QQ号];uin=o0[你的QQ号]
