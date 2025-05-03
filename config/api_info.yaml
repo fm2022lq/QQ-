@@ -2,7 +2,7 @@ Common:
   headers:
     user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
       like Gecko) Chrome/135.0.0.0 Safari/537.36
-    cookie: p_skey=*Nlbt*XIHURUrEXfo5N68oh*inOjcexlQZGsotqTWlo_;p_uin=o0564540626;uin=o0564540626
+    cookie: p_skey=xxxxxxxxxx;p_uin=o0[你的QQ号];uin=o0[你的QQ号]
 Api:
   get_visitor_simple:
     method: GET
