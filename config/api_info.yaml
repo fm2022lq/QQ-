@@ -1,0 +1,181 @@
+Common:
+  headers:
+    user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+      like Gecko) Chrome/135.0.0.0 Safari/537.36
+    cookie: p_skey=*Nlbt*XIHURUrEXfo5N68oh*inOjcexlQZGsotqTWlo_;p_uin=o0564540626;uin=o0564540626
+Api:
+  get_visitor_simple:
+    method: GET
+    url: https://user.qzone.qq.com/proxy/domain/g.qzone.qq.com/cgi-bin/friendshow/cgi_get_visitor_simple
+    params:
+      uin: ''
+      mask: '2'
+      mod: '2'
+      fupdate: '1'
+      g_tk: ''
+    headers:
+      accept: '*/*'
+      accept-language: zh-CN,zh;q=0.9
+      cache-control: no-cache
+      pragma: no-cache
+      priority: u=1, i
+      referer: ''
+      sec-ch-ua: '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"'
+      sec-ch-ua-mobile: ?0
+      sec-ch-ua-platform: '"Windows"'
+      sec-fetch-dest: empty
+      sec-fetch-mode: cors
+      sec-fetch-site: same-origin
+      user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/135.0.0.0 Safari/537.36
+  fcg_list_album_v3:
+    method: GET
+    url: https://user.qzone.qq.com/proxy/domain/photo.qzone.qq.com/fcgi-bin/fcg_list_album_v3
+    params:
+      g_tk: ''
+      callback: shine3_Callback
+      t: '881374616'
+      hostUin: ''
+      uin: ''
+      appid: '4'
+      inCharset: utf-8
+      outCharset: utf-8
+      source: qzone
+      plat: qzone
+      format: jsonp
+      notice: '0'
+      filter: '1'
+      handset: '4'
+      pageNumModeSort: '40'
+      pageNumModeClass: '15'
+      needUserInfo: '1'
+      idcNum: '4'
+      mode: '2'
+      sortOrder: '1'
+      pageStart: '0'
+      pageNum: '30'
+      callbackFun: shine3
+      _: ''
+    headers:
+      accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript,
+        */*; q=0.01
+      accept-language: zh-CN,zh;q=0.9
+      cache-control: no-cache
+      pragma: no-cache
+      priority: u=1, i
+      referer: https://user.qzone.qq.com/proxy/domain/qzs.qq.com/qzone/photo/v7/page/photo.html?init=photo.v7/module/albumList/index&g_iframeUser=1
+      sec-ch-ua: '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"'
+      sec-ch-ua-mobile: ?0
+      sec-ch-ua-platform: '"Windows"'
+      sec-fetch-dest: empty
+      sec-fetch-mode: cors
+      sec-fetch-site: same-origin
+      user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/135.0.0.0 Safari/537.36
+      x-requested-with: XMLHttpRequest
+  cgi_list_photo:
+    method: GET
+    url: https://h5.qzone.qq.com/proxy/domain/photo.qzone.qq.com/fcgi-bin/cgi_list_photo
+    params:
+      g_tk: ''
+      callback: shine3_Callback
+      t: '633499409'
+      mode: '0'
+      idcNum: '4'
+      hostUin: ''
+      topicId: ''
+      noTopic: '0'
+      uin: ''
+      pageStart: '0'
+      pageNum: '5'
+      skipCmtCount: '0'
+      singleurl: '1'
+      batchId: ''
+      notice: '0'
+      appid: '4'
+      inCharset: utf-8
+      outCharset: utf-8
+      source: qzone
+      plat: qzone
+      outstyle: json
+      format: jsonp
+      json_esc: '1'
+      callbackFun: shine3
+      _: '1744738690238'
+    headers:
+      Accept: '*/*'
+      Accept-Language: zh-CN,zh;q=0.9
+      Cache-Control: no-cache
+      Connection: keep-alive
+      Pragma: no-cache
+      Referer: https://user.qzone.qq.com/
+      Sec-Fetch-Dest: script
+      Sec-Fetch-Mode: no-cors
+      Sec-Fetch-Site: same-site
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/135.0.0.0 Safari/537.36
+      sec-ch-ua: '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"'
+      sec-ch-ua-mobile: ?0
+      sec-ch-ua-platform: '"Windows"'
+  cgi_floatview_photo_list_v2:
+    method: GET
+    url: https://user.qzone.qq.com/proxy/domain/photo.qzone.qq.com/fcgi-bin/cgi_floatview_photo_list_v2
+    params:
+      g_tk: ''
+      callback: viewer_Callback
+      t: '878927920'
+      topicId: ''
+      picKey: ''
+      shootTime: ''
+      cmtOrder: '1'
+      fupdate: '1'
+      plat: qzone
+      source: qzone
+      cmtNum: '10'
+      likeNum: '5'
+      inCharset: utf-8
+      outCharset: utf-8
+      callbackFun: viewer
+      offset: '19'
+      number: '15'
+      uin: ''
+      hostUin: ''
+      appid: '4'
+      isFirst: '0'
+      sortOrder: '1'
+      showMode: '1'
+      need_private_comment: '1'
+      prevNum: '0'
+      postNum: '19'
+      _: '1744684059031'
+    headers:
+      accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript,
+        */*; q=0.01
+      accept-language: zh-CN,zh;q=0.9
+      cache-control: no-cache
+      pragma: no-cache
+      priority: u=1, i
+      referer: ''
+      sec-ch-ua: '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"'
+      sec-ch-ua-mobile: ?0
+      sec-ch-ua-platform: '"Windows"'
+      sec-fetch-dest: empty
+      sec-fetch-mode: cors
+      sec-fetch-site: same-origin
+      user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/135.0.0.0 Safari/537.36
+      x-requested-with: XMLHttpRequest
+  class_list:
+    100: 最爱
+    101: 人物
+    102: 风景
+    103: 动物
+    104: 游记
+    105: 卡通
+    106: 生活
+    107: 其他
+  anonymity_list:
+    0: 普通
+    5: 亲子
+    6: 旅游
+    7: 校友
